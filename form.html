@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    Create Account
+
+    <form action="/creating_account">
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" required /><br />
+
+      <lable for="Mobile">Mobile NO.</lable><br />
+      <input type="number" id="Mobile" required /><br />
+      
+      <label for="Eamil">Email (optional)</label><br />
+      <input type="email" name="Email" id="Email" /><br />
+
+      <label for="pass">Password</label><br />
+      <input type="password" id="pass" required /><br />
+
+      <input type="checkbox" value="checkbox">
+      <label for="checkbox">password must be in 6
+      charactors</label> 
+  
+
+      <input type="radio" name="Gender" id="male">
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" id="female">
+      <label for="female">Female</label>
+      <br />
+      <input type="submit" value="Signup" />
+
+    </form>
+  </body>
+</html>
