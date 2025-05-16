@@ -1,0 +1,19 @@
+
+p{
+    background-color: yellow;
+}
+a
+
+    transition: text-decoration 0.5s;
+    background-color:white
+
+div{
+
+    background-color:orangered;
+    
+}
+
+span
+{
+    background-color: aqua;  /* span is a  inline element/* 
+}
